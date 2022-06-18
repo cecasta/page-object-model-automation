@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Compra de productos" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-06-18T16:08:22" hostname="ccastanos-MacBook-Pro.local" time="19.019">
+<testsuite name="Compra de productos" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-06-18T17:22:56" hostname="ccastanos-MacBook-Pro.local" time="19.94">
   <properties/>
-  <testcase name="Realizar checkout de compra" classname="Compra de productos" time="10.711"/>
-  <testcase name="Realizar checkout de compra" classname="Compra de productos" time="8.198"/>
+  <testcase name="Realizar checkout de compra" classname="Compra de productos" time="10.818"/>
+  <testcase name="Realizar checkout de compra" classname="Compra de productos" time="9.057"/>
   <system-out><![CDATA[
 
 
@@ -41,13 +41,13 @@ TEST STARTED: Realizar checkout de compra
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Example #1: {nombre=cesar, apellido=castano, codigoPostal=20007}
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Dado que el usuario se encuentra en la pagina
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Abrir navegador
-Jun 18, 2022 11:08:23 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+Jun 18, 2022 12:22:56 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 19519
+Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 38144
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jun 18, 2022 11:08:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 18, 2022 12:22:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
@@ -78,9 +78,9 @@ INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Example #2: {nombre=Maria, apellido=Lopez, codigoPostal=67440007}
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Dado que el usuario se encuentra en la pagina
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Abrir navegador
-Jun 18, 2022 11:08:33 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+Jun 18, 2022 12:23:07 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Jun 18, 2022 11:08:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 18, 2022 12:23:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP

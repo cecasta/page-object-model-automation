@@ -1,3 +1,5 @@
+com/ingjuanfg/pages/CheckOutCompletePage.java
+ com.ingjuanfg.pages.CheckOutCompletePage
 com/ingjuanfg/steps/InventoryStep.java
  com.ingjuanfg.steps.InventoryStep
 com/ingjuanfg/pages/CarPage.java
@@ -8,9 +10,13 @@ com/ingjuanfg/pages/InventoryPage.java
  com.ingjuanfg.pages.InventoryPage
 com/ingjuanfg/steps/CartStep.java
  com.ingjuanfg.steps.CartStep
+com/ingjuanfg/steps/CheckOutCompleteStep.java
+ com.ingjuanfg.steps.CheckOutCompleteStep
 com/ingjuanfg/steps/CheckOutStep.java
  com.ingjuanfg.steps.CheckOutStep
 com/ingjuanfg/pages/LoginPage.java
  com.ingjuanfg.pages.LoginPage
 com/ingjuanfg/steps/LoginStep.java
  com.ingjuanfg.steps.LoginStep
+com/ingjuanfg/pages/FinishCheckOutPage.java
+ com.ingjuanfg.pages.FinishCheckOutPage
