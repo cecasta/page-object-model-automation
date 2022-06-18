@@ -129,7 +129,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 17-06-2022 21:09</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-06-2022 11:08</span>
     <br style="clear:left"/>
 </div>
 
@@ -182,16 +182,67 @@ Para realizar la compra de estos
 
     <div class="clr"></div>
 
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Cuando cuando el usuario agrega producto al carrito<br>Y realiza el checkout de la compra<br><table class='embedded'><thead><th>nombre</th><th>apellido</th><th>postal</th></thead><tbody><tr><td>&lt;nombre&gt;</td><td>&lt;apellido&gt;</td><td>&lt;codigoPostal&gt;</td></tr></tbody></table><br>Entonces el  usuario finaliza la compra</div>
+    </div>
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="57c04681e399d31bcbfae8cca1bcc897b34009c49991ef4e60778f2dfaa7b7de.png" title=" Dado que el usuario se encuentra en la pagina" width="2400"/>
-                <img src="82662637223305be611e63bac3c9bf906db8aeabcfcd89625a04577e095be8d4.png" title=" Cuando usuario ingresa sus credenciales" width="2400"/>
-                <img src="36fa6bd4f27c27afc60a53c4025294e291ede19564094a055579c80067b87a2b.png" title=" Cuando cuando el usuario agrega producto al carrito" width="2400"/>
-                <img src="df24cf21deb7e1fea11a558cd9f1b2c6df2941b9f4502949827a15cf8c326965.png" title=" Y realiza el checkout de la compra" width="2400"/>
-                <img src="df24cf21deb7e1fea11a558cd9f1b2c6df2941b9f4502949827a15cf8c326965.png" title=" Entonces el  usuario finaliza la compra: <span class='success-color'>SUCCESS</span>" width="2400"/>
+                <img src="077fa8f4d51f6a0a392ff151dfa52e9d278f97d84b831ebc7aa4c7942cb43f40.png" title=" Example #1: {nombre=cesar, apellido=castano, codigoPostal=20007}" width="2400"/>
+                <img src="077fa8f4d51f6a0a392ff151dfa52e9d278f97d84b831ebc7aa4c7942cb43f40.png" title=" Dado que el usuario se encuentra en la pagina" width="2400"/>
+                <img src="077fa8f4d51f6a0a392ff151dfa52e9d278f97d84b831ebc7aa4c7942cb43f40.png" title=" Abrir navegador" width="2400"/>
+                <img src="077fa8f4d51f6a0a392ff151dfa52e9d278f97d84b831ebc7aa4c7942cb43f40.png" title=" Dado que el usuario se encuentra en la pagina (completed)" width="2400"/>
+                <img src="077fa8f4d51f6a0a392ff151dfa52e9d278f97d84b831ebc7aa4c7942cb43f40.png" title=" Cuando usuario ingresa sus credenciales
+| usuario | standard_user |
+| clave | secret_sauce |" width="2400"/>
+                <img src="077fa8f4d51f6a0a392ff151dfa52e9d278f97d84b831ebc7aa4c7942cb43f40.png" title=" Abrir navegador" width="2400"/>
+                <img src="ee18279d6e4a608646a5b2b7d3b709688a588965358633eb62b685c03ee5dd83.png" title=" Iniciar autenticacion: {usuario=standard_user, clave=secret_sauce}" width="2400"/>
+                <img src="ee18279d6e4a608646a5b2b7d3b709688a588965358633eb62b685c03ee5dd83.png" title=" Cuando usuario ingresa sus credenciales
+| usuario | standard_user |
+| clave | secret_sauce | (completed)" width="2400"/>
+                <img src="200587018b16db44672106e0c34eaf469bcc6473474c3abfff40600f963ab872.png" title=" Cuando cuando el usuario agrega producto al carrito" width="2400"/>
+                <img src="200587018b16db44672106e0c34eaf469bcc6473474c3abfff40600f963ab872.png" title=" Agregar producto al carrito" width="2400"/>
+                <img src="4fbc440180879de7c99439153ad9a3757b41ccca3dfe52db721d2e323185767b.png" title=" Ver carrito de compra" width="2400"/>
+                <img src="4fbc440180879de7c99439153ad9a3757b41ccca3dfe52db721d2e323185767b.png" title=" Cuando cuando el usuario agrega producto al carrito (completed)" width="2400"/>
+                <img src="aee641b7f8dfe257133e4dc1298e892c301e4b475469b914c47cc53a525fc4ee.png" title=" Y realiza el checkout de la compra
+| nombre | apellido | postal |
+| cesar | castano | 20007 |" width="2400"/>
+                <img src="aee641b7f8dfe257133e4dc1298e892c301e4b475469b914c47cc53a525fc4ee.png" title=" Hacer check out" width="2400"/>
+                <img src="a11952d15f239d6cbf0bd57b2d76022c39f8ea1ff43063f42e659db44b63e96d.png" title=" Completar formulario checkout: [{nombre=cesar, apellido=castano, postal=20007}]" width="2400"/>
+                <img src="a11952d15f239d6cbf0bd57b2d76022c39f8ea1ff43063f42e659db44b63e96d.png" title=" Y realiza el checkout de la compra
+| nombre | apellido | postal |
+| cesar | castano | 20007 | (completed)" width="2400"/>
+                <img src="a11952d15f239d6cbf0bd57b2d76022c39f8ea1ff43063f42e659db44b63e96d.png" title=" Entonces el  usuario finaliza la compra" width="2400"/>
+                <img src="a11952d15f239d6cbf0bd57b2d76022c39f8ea1ff43063f42e659db44b63e96d.png" title=" Example #1: {nombre=cesar, apellido=castano, codigoPostal=20007} (completed)" width="2400"/>
+                <img src="077fa8f4d51f6a0a392ff151dfa52e9d278f97d84b831ebc7aa4c7942cb43f40.png" title=" Example #2: {nombre=Maria, apellido=Lopez, codigoPostal=67440007}" width="2400"/>
+                <img src="077fa8f4d51f6a0a392ff151dfa52e9d278f97d84b831ebc7aa4c7942cb43f40.png" title=" Dado que el usuario se encuentra en la pagina" width="2400"/>
+                <img src="077fa8f4d51f6a0a392ff151dfa52e9d278f97d84b831ebc7aa4c7942cb43f40.png" title=" Abrir navegador" width="2400"/>
+                <img src="077fa8f4d51f6a0a392ff151dfa52e9d278f97d84b831ebc7aa4c7942cb43f40.png" title=" Dado que el usuario se encuentra en la pagina (completed)" width="2400"/>
+                <img src="077fa8f4d51f6a0a392ff151dfa52e9d278f97d84b831ebc7aa4c7942cb43f40.png" title=" Cuando usuario ingresa sus credenciales
+| usuario | standard_user |
+| clave | secret_sauce |" width="2400"/>
+                <img src="077fa8f4d51f6a0a392ff151dfa52e9d278f97d84b831ebc7aa4c7942cb43f40.png" title=" Abrir navegador" width="2400"/>
+                <img src="ee18279d6e4a608646a5b2b7d3b709688a588965358633eb62b685c03ee5dd83.png" title=" Iniciar autenticacion: {usuario=standard_user, clave=secret_sauce}" width="2400"/>
+                <img src="ee18279d6e4a608646a5b2b7d3b709688a588965358633eb62b685c03ee5dd83.png" title=" Cuando usuario ingresa sus credenciales
+| usuario | standard_user |
+| clave | secret_sauce | (completed)" width="2400"/>
+                <img src="200587018b16db44672106e0c34eaf469bcc6473474c3abfff40600f963ab872.png" title=" Cuando cuando el usuario agrega producto al carrito" width="2400"/>
+                <img src="200587018b16db44672106e0c34eaf469bcc6473474c3abfff40600f963ab872.png" title=" Agregar producto al carrito" width="2400"/>
+                <img src="4fbc440180879de7c99439153ad9a3757b41ccca3dfe52db721d2e323185767b.png" title=" Ver carrito de compra" width="2400"/>
+                <img src="4fbc440180879de7c99439153ad9a3757b41ccca3dfe52db721d2e323185767b.png" title=" Cuando cuando el usuario agrega producto al carrito (completed)" width="2400"/>
+                <img src="aee641b7f8dfe257133e4dc1298e892c301e4b475469b914c47cc53a525fc4ee.png" title=" Y realiza el checkout de la compra
+| nombre | apellido | postal |
+| Maria | Lopez | 67440007 |" width="2400"/>
+                <img src="aee641b7f8dfe257133e4dc1298e892c301e4b475469b914c47cc53a525fc4ee.png" title=" Hacer check out" width="2400"/>
+                <img src="a11952d15f239d6cbf0bd57b2d76022c39f8ea1ff43063f42e659db44b63e96d.png" title=" Completar formulario checkout: [{nombre=Maria, apellido=Lopez, postal=67440007}]" width="2400"/>
+                <img src="a11952d15f239d6cbf0bd57b2d76022c39f8ea1ff43063f42e659db44b63e96d.png" title=" Y realiza el checkout de la compra
+| nombre | apellido | postal |
+| Maria | Lopez | 67440007 | (completed)" width="2400"/>
+                <img src="a11952d15f239d6cbf0bd57b2d76022c39f8ea1ff43063f42e659db44b63e96d.png" title=" Entonces el  usuario finaliza la compra" width="2400"/>
+                <img src="a11952d15f239d6cbf0bd57b2d76022c39f8ea1ff43063f42e659db44b63e96d.png" title=" Example #2: {nombre=Maria, apellido=Lopez, codigoPostal=67440007} (completed): <span class='success-color'>SUCCESS</span>" width="2400"/>
             </div>
         </div>
 

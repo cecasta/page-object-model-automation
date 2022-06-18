@@ -1,23 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="com.ingjuanfg.runners.LoginSaucedemoRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="ccastanos-MacBook-Pro.local" time="0.0">
   <properties/>
-  <system-out><![CDATA[Característica: Compra de productos
-    Yo como usuario de Saucedemo
-    Quiero agregar productos al carrito
-    Para realizar la compra de estos
+  <system-out><![CDATA[
+
+Característica: Compra de productos
+  Yo como usuario de Saucedemo
+  Quiero agregar productos al carrito
+  Para realizar la compra de estos
+
+  Esquema del escenario: Realizar checkout de compra ?[90m# src/test/resources/features/checkout_product_saucedemo.feature:14?[0m
+    ?[36mCuando cuando el usuario agrega producto al carrito?[0m
+    ?[36mY realiza el checkout de la compra?[0m
+    ?[36mEntonces el  usuario finaliza la compra?[0m
+
+    Ejemplos: 
 
   Antecedentes:                                   ?[90m# src/test/resources/features/checkout_product_saucedemo.feature:8?[0m
     ?[32mDado ?[0m?[32mque el usuario se encuentra en la pagina?[0m ?[90m# LoginSaucedemoStepDefinition.queElUsuarioSeEncuentraEnLaPagina()?[0m
-    ?[32mCuando ?[0m?[32musuario ingresa sus credenciales?[0m       ?[90m# CheckoutProductStepDefinition.usuarioIngresaSusCredenciales()?[0m
+    ?[32mCuando ?[0m?[32musuario ingresa sus credenciales?[0m       ?[90m# CheckoutProductStepDefinition.usuarioIngresaSusCredenciales(String,String>)?[0m
 
-  Escenario: Realizar checkout de compra                ?[90m# src/test/resources/features/checkout_product_saucedemo.feature:12?[0m
+  Esquema del escenario: Realizar checkout de compra    ?[90m# src/test/resources/features/checkout_product_saucedemo.feature:22?[0m
     ?[32mCuando ?[0m?[32mcuando el usuario agrega producto al carrito?[0m ?[90m# CheckoutProductStepDefinition.cuandoElUsuarioAgregaProductoAlCarrito()?[0m
-    ?[32mY ?[0m?[32mrealiza el checkout de la compra?[0m                  ?[90m# CheckoutProductStepDefinition.realizaElCheckoutDeLaCompra()?[0m
+    ?[32mY ?[0m?[32mrealiza el checkout de la compra?[0m                  ?[90m# CheckoutProductStepDefinition.realizaElCheckoutDeLaCompra(String,String>>)?[0m
     ?[32mEntonces ?[0m?[32mel  usuario finaliza la compra?[0m             ?[90m# CheckoutProductStepDefinition.elUsuarioFinalizaLaCompra()?[0m
 
-1 Scenarios (?[32m1 passed?[0m)
-5 Steps (?[32m5 passed?[0m)
-0m9.650s
+  Antecedentes:                                   ?[90m# src/test/resources/features/checkout_product_saucedemo.feature:8?[0m
+    ?[32mDado ?[0m?[32mque el usuario se encuentra en la pagina?[0m ?[90m# LoginSaucedemoStepDefinition.queElUsuarioSeEncuentraEnLaPagina()?[0m
+    ?[32mCuando ?[0m?[32musuario ingresa sus credenciales?[0m       ?[90m# CheckoutProductStepDefinition.usuarioIngresaSusCredenciales(String,String>)?[0m
+
+  Esquema del escenario: Realizar checkout de compra    ?[90m# src/test/resources/features/checkout_product_saucedemo.feature:23?[0m
+    ?[32mCuando ?[0m?[32mcuando el usuario agrega producto al carrito?[0m ?[90m# CheckoutProductStepDefinition.cuandoElUsuarioAgregaProductoAlCarrito()?[0m
+    ?[32mY ?[0m?[32mrealiza el checkout de la compra?[0m                  ?[90m# CheckoutProductStepDefinition.realizaElCheckoutDeLaCompra(String,String>>)?[0m
+    ?[32mEntonces ?[0m?[32mel  usuario finaliza la compra?[0m             ?[90m# CheckoutProductStepDefinition.elUsuarioFinalizaLaCompra()?[0m
+
+2 Scenarios (?[32m2 passed?[0m)
+10 Steps (?[32m10 passed?[0m)
+0m19.340s
 
 ]]></system-out>
   <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96m
@@ -38,6 +56,18 @@
 -------------------------------------------------------------------------------------
 ?[0m
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Compra de productos
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Realizar checkout de compra
+----------------------------------------------------------------------------?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 

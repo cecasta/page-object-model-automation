@@ -1,0 +1,16 @@
+com/ingjuanfg/steps/InventoryStep.java
+ com.ingjuanfg.steps.InventoryStep
+com/ingjuanfg/pages/CarPage.java
+ com.ingjuanfg.pages.CarPage
+com/ingjuanfg/pages/CheckOutPage.java
+ com.ingjuanfg.pages.CheckOutPage
+com/ingjuanfg/pages/InventoryPage.java
+ com.ingjuanfg.pages.InventoryPage
+com/ingjuanfg/steps/CartStep.java
+ com.ingjuanfg.steps.CartStep
+com/ingjuanfg/steps/CheckOutStep.java
+ com.ingjuanfg.steps.CheckOutStep
+com/ingjuanfg/pages/LoginPage.java
+ com.ingjuanfg.pages.LoginPage
+com/ingjuanfg/steps/LoginStep.java
+ com.ingjuanfg.steps.LoginStep

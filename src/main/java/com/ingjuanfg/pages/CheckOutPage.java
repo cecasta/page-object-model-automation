@@ -1,28 +1,39 @@
 package com.ingjuanfg.pages;
 
 
+import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.pages.PageObject;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.FindBy;
 
 public class CheckOutPage extends PageObject {
 
-    WebDriver driver;
-    By inputFirtName = By.id("first-name");
-    By inputLastName = By.id("last-name");
-    By inputCodePost = By.id("postal-code");
-    By bottonBy = By.id("continue");
+    @FindBy(id="first-name")
+    WebElementFacade inputFirtName;
 
-    public CheckOutPage(WebDriver driver) {
-        this.driver = driver;
+    @FindBy(id="last-name")
+    WebElementFacade inputLastName;
+
+    @FindBy(id="postal-code")
+    WebElementFacade inputCodePost;
+
+    @FindBy(id="continue")
+    WebElementFacade bottonBy;
+
+
+    public void setFirtName(String name){
+        inputFirtName.type(name);
     }
 
+    public void setLastName(String lastName){
+        inputLastName.type(lastName);
+    }
 
-    public void completeFormCheckOut(){
-        driver.findElement(inputFirtName).sendKeys("Cesar");
-        driver.findElement(inputLastName).sendKeys("Castano");
-        driver.findElement(inputCodePost).sendKeys("00000");
-        driver.findElement(bottonBy).click();
+    public void setCodePost(String codePost){
+        inputCodePost.type(codePost);
+    }
+
+    public void continueCheckOut(){
+        bottonBy.click();
     }
 
 }

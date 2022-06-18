@@ -1,0 +1,6 @@
+com/ingjuanfg/stepdefinitions/LoginSaucedemoStepDefinition.java
+ com.ingjuanfg.stepdefinitions.LoginSaucedemoStepDefinition
+com/ingjuanfg/stepdefinitions/CheckoutProductStepDefinition.java
+ com.ingjuanfg.stepdefinitions.CheckoutProductStepDefinition
+com/ingjuanfg/runners/LoginSaucedemoRunner.java
+ com.ingjuanfg.runners.LoginSaucedemoRunner

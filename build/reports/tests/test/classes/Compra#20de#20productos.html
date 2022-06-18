@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">1</div>
+<div class="counter">2</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">9.316s</div>
+<div class="counter">18.909s</div>
 <p>duration</p>
 </div>
 </td>
@@ -82,7 +82,12 @@
 </thead>
 <tr>
 <td class="success">Realizar checkout de compra</td>
-<td class="success">9.316s</td>
+<td class="success">10.711s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Realizar checkout de compra</td>
+<td class="success">8.198s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -91,6 +96,25 @@
 <h2>Standard output</h2>
 <span class="code">
 <pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -111,21 +135,73 @@
 
 TEST STARTED: Realizar checkout de compra
 -------------------------------------------------------------------(compra-de-productos;realizar-checkout-de-compra)
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Example #1: {nombre=cesar, apellido=castano, codigoPostal=20007}
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Dado que el usuario se encuentra en la pagina
-Jun 17, 2022 9:09:25 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Abrir navegador
+Jun 18, 2022 11:08:23 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 22665
+Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 19519
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jun 17, 2022 9:09:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 18, 2022 11:08:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Cuando usuario ingresa sus credenciales
+| usuario | standard_user |
+| clave | secret_sauce |
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Abrir navegador
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Iniciar autenticacion: {usuario=standard_user, clave=secret_sauce}
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Cuando cuando el usuario agrega producto al carrito
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Agregar producto al carrito
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Ver carrito de compra
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Y realiza el checkout de la compra
+| nombre | apellido | postal |
+| cesar | castano | 20007 |
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Hacer check out
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Completar formulario checkout: [{nombre=cesar, apellido=castano, postal=20007}]
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Entonces el  usuario finaliza la compra
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Example #2: {nombre=Maria, apellido=Lopez, codigoPostal=67440007}
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Dado que el usuario se encuentra en la pagina
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Abrir navegador
+Jun 18, 2022 11:08:33 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Jun 18, 2022 11:08:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Cuando usuario ingresa sus credenciales
+| usuario | standard_user |
+| clave | secret_sauce |
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Abrir navegador
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Iniciar autenticacion: {usuario=standard_user, clave=secret_sauce}
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Cuando cuando el usuario agrega producto al carrito
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Agregar producto al carrito
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Ver carrito de compra
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Y realiza el checkout de la compra
+| nombre | apellido | postal |
+| Maria | Lopez | 67440007 |
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Hacer check out
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Completar formulario checkout: [{nombre=Maria, apellido=Lopez, postal=67440007}]
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Entonces el  usuario finaliza la compra
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
@@ -140,7 +216,7 @@ INFO: Detected dialect: W3C
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.4</a> at Jun 17, 2022 9:09:36 PM</p>
+<a href="http://www.gradle.org">Gradle 7.4</a> at Jun 18, 2022 11:08:43 AM</p>
 </div>
 </div>
 </body>

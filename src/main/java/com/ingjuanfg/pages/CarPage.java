@@ -1,21 +1,18 @@
 package com.ingjuanfg.pages;
 
+import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.FindBy;
 
 public class CarPage extends PageObject {
 
-    WebDriver driver;
-    By bottonCheckout = By.id("checkout");
-
-
-    public CarPage(WebDriver driver) {
-        this.driver = driver;
-    }
+    @FindBy(id="checkout")
+    WebElementFacade bottonCheckout;
 
     public void makeCheckOut(){
-        driver.findElement(bottonCheckout).click();
+        bottonCheckout.click();
     }
 
 }
